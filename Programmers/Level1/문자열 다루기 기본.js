@@ -1,4 +1,5 @@
 function solution(s) {
+  // isNaN(): 어떤 값이 NaN인지 판별하는 함수
   if (!(s.length === 4 || s.length === 6)) return false;
   else {
     let strS = s.split("");
