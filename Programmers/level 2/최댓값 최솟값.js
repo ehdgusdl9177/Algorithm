@@ -11,9 +11,6 @@
 // "-1 -1"	"-1 -1"
 
 function solution(s) {
-  let splitS = s.split(" ");
-  let min = Math.min(...splitS);
-  let max = Math.max(...splitS);
-
-  return `${min} ${max}`;
+  let split = s.split(" ");
+  return `${Math.min(...split)} ${Math.max(...split)}`;
 }
